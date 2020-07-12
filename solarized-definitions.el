@@ -798,6 +798,9 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (undo-tree-visualizer-register-face (,@fg-yellow))
                 ;; haskell
                 (haskell-keyword-face (,@fg-cyan))
+                ;; js2-mode
+                (js2-error (,@fmt-curl-red))
+                (js2-warning (,@fmt-curl-yellow))
                 ;; web-mode
                 (web-mode-current-column-highlight-face (,@bg-base02))
                 (web-mode-current-element-highlight-face (,@fg-magenta ,@bg-base02 :weight bold))
